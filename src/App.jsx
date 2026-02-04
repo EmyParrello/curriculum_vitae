@@ -4,113 +4,151 @@ import { Accordion } from '@ark-ui/react/accordion'
 
 const workHistory = [
   {
-    value: 'glovo',
-    role: 'Data Engineer & Data Platform Engineer',
-    company: 'Glovo',
-    companyUrl: 'https://glovoapp.com',
-    dates: 'Oct 2020 - Present',
-    details: [
-      'Glovo is the app that allows you to get the best products of your city in a few minutes. We connect users, businesses and couriers to make that possible.',
-      'Originally joining the central Data Engineering team to manage all data pipelines for the company using Luigi and Jenkins as orchestration stack, and Redshift as our data warehouse.',
-      'Led the transition to a data mesh architecture and the Data Platform team, introducing Airflow, Trino, Glue, Kubernetes, ArgoCD, and Terraform.',
-      'Designed, implemented, and oversaw Trino infrastructure with several clusters serving hundreds of thousands of queries per day.'
-    ]
-  },
-  {
-    value: 'letgo',
-    role: 'BI Data Engineer',
-    company: 'Letgo',
-    companyUrl: 'https://letgo.com/about-letgo',
-    dates: 'May 2019 - Aug 2020',
-    details: [
-      'Provided stakeholders with relevant data in a timely manner, managing over a hundred pipelines in Airflow.',
-      'Delivered data to analysts, data scientists, trust and safety, customer care, finance, and leadership teams.'
-    ]
-  },
-  {
-    value: 'payxpert',
-    role: 'Data Engineer (Freelance)',
-    company: 'PayXpert',
-    companyUrl: 'https://payxpert.com',
-    dates: 'Nov 2017 - Nov 2018',
-    details: [
-      'Designed a custom ETL pipeline for automated bank reconciliations.',
-      'Implemented an open source HR management solution across the company.',
-      'Automated data retrieval from FTP sources using VPN and SSH keys.'
-    ]
-  },
-  {
-    value: 'freelance',
-    role: 'Finance Manager & Data Engineer (Freelance)',
-    company: 'Digamelon & La Famiglia',
-    companyUrl: 'http://digamelon.net',
-    dates: 'Nov 2016 - Oct 2018',
-    details: [
-      'Developed an ETL pipeline from Zendesk to a MySQL instance in AWS RDS.',
-      'Deployed Grafana on AWS EC2 to plot data in real-time dashboards.',
-      'Implemented Odoo 8 (formerly OpenERP).' 
-    ]
-  },
-  {
-    value: 'kott',
-    role: 'Founder',
-    company: 'Kott Müller',
+    value: 'dallonses',
+    role: 'Frontend Developer',
+    company: 'Dallonses Agency',
     companyUrl: '',
-    dates: 'Nov 2015 - Oct 2016',
+    dates: 'February 2019 – Present',
     details: [
-      'Created a locally produced shoes brand and managed everything from building the site to logistics, finance, and marketing.',
-      'Learned the importance of complementary skillsets and choosing the right partners.',
-      'Recognized the need to focus on fundamentals before scaling complex structures.'
+      'Second software engineer to join the agency, eventually taking the lead role in all projects.',
+      'Built interfaces with HTML5, CSS3, JavaScript, React, Tailwind CSS, Vite, Next.js, and React Native.',
+      'Delivered motion-rich experiences using Motion, Ark UI components, Radix, and Tanstack.'
     ]
   },
   {
-    value: 'northweek',
-    role: 'Finance Manager',
-    company: 'Northweek',
-    companyUrl: 'https://northweek.com',
-    dates: 'Oct 2014 - Oct 2015',
-    details: [
-      'Built the accounting team and implemented infrastructure to deliver accounting statements and reports.'
-    ]
-  },
-  {
-    value: 'kpmg',
-    role: 'Accounting Audit Intern',
-    company: 'KPMG',
+    value: 'restorer',
+    role: 'Conservator and Restorer of Cultural Property',
+    company: 'Freelance',
     companyUrl: '',
-    dates: 'Jan 2013 - Dec 2013',
+    dates: 'February 2014 – December 2017',
     details: [
-      'Engaged in field work on audit reports for clients including Artificial Solutions, DSV, Omnicom Media Group, Ricoh, TRAM, and Wallenius Wilhelmsen Logistics.'
+      'Restoration of movable and immovable property across textile, wood, and paper supports (canvas, panel painting, polychrome carving, altarpieces, books, graphic and archival documents).',
+      'Handled study and documentation, analysis, consolidation, cleaning, protection, and presentation of artworks.',
+      'Projects delivered in Barcelona and Zaragoza, Spain.'
     ]
+  }
+]
+
+const featuredProjects = [
+  {
+    title: "Orquestrador d'Infraestructures de la Generalitat de Catalunya",
+    description: 'Blablabla'
+  },
+  {
+    title: 'Wikiparfum',
+    description: 'Blablabla'
+  },
+  {
+    title: 'Primavera Sound Website and App',
+    description: 'Blablabla'
+  },
+  {
+    title: 'Scopely Website',
+    description: 'Blablabla'
+  },
+  {
+    title: 'Klein Website',
+    description: 'Blablabla'
+  },
+  {
+    title: 'Chefslink Website and App',
+    description: 'Blablabla'
+  },
+  {
+    title: 'HP Virtual Booth',
+    description: 'Blablabla'
+  },
+  {
+    title: 'Socialpoint Website',
+    description: 'Blablabla'
+  }
+]
+
+const projects = [
+  {
+    title: 'Northern Youth Soccer League Website',
+    description: 'Website development using HTML and CSS.'
+  },
+  {
+    title: 'Transparent Government In Fact Website',
+    description:
+      'USA Congress website that displays live data from ProPublica API through AJAX calls. Made using HTML, CSS, JavaScript, Vue.js and Bootstrap.'
+  },
+  {
+    title: 'Ubiqum Bookstore Web App',
+    description:
+      'Bookstore web app with dynamic search engine. Gets information from an API through AJAX calls. Made using HTML, CSS, JavaScript and Vue.js.'
+  },
+  {
+    title: 'Weather by City Web App',
+    description:
+      'Web app that displays weather by searching a city, getting information from an API through AJAX calls. Made using HTML, CSS, JavaScript and Vue.js.'
+  },
+  {
+    title: 'Ubiqum Foosball League Mobile Web App',
+    description:
+      'Responsive single page application, deployed on Firebase. Made using HTML, CSS, JavaScript, and Vue.js.'
+  },
+  {
+    title: 'Salvo Battleship Game',
+    description:
+      'Multiplayer online game built with Java, Spring Boot, JavaScript, Vue.js, HTML and CSS.'
   }
 ]
 
 const education = [
   {
-    title: 'Data Analytics with Machine Learning',
-    institution: 'Ubiqum Code Academy',
-    dates: 'Nov 2018 - Apr 2019',
+    title: 'Full Stack Java Developer',
+    institution: 'Full-time Bootcamp',
+    dates: 'September 2018 – February 2019',
     details: [
-      'Investigated customer buying patterns and predicted profitability.',
-      'Completed market basket analysis to discover associations between products.',
-      'Built IoT analytics on energy consumption.',
-      'Predicted indoor location through WiFi signals.',
-      'Created an API + dashboard to plot datathon results.'
+      'Learning by Doing methodology with project-based delivery.',
+      'Focused on HTML5, CSS3, JavaScript, Vue.js, Java 8, Spring Boot, Firebase, and Bootstrap.'
     ]
   },
   {
-    title: 'Bachelor in Economics',
-    institution: 'University of Barcelona',
-    dates: 'Sep 2008 - Jun 2012',
+    title: '3D Generalist – 3D Modeling and Animation',
+    institution: 'Animum Creativity Advanced School',
+    dates: 'January 2018 – July 2018',
+    details: ['Autodesk 3D Studio Max.']
+  },
+  {
+    title: 'Degree in Conservation and Restoration of Cultural Property',
+    institution: 'Universitat de Barcelona',
+    dates: 'September 2009 – June 2014',
     details: []
   }
 ]
 
-const languages = [
-  { name: 'English', level: 'Native / Fluent' },
-  { name: 'Spanish', level: 'Native / Fluent' },
-  { name: 'Catalan', level: 'Professional' }
+const technicalSkills = [
+  'HTML5',
+  'CSS3',
+  'JavaScript',
+  'Vue.js',
+  'Java 8',
+  'Spring Boot',
+  'Firebase',
+  'Bootstrap',
+  'WordPress',
+  'Adobe Photoshop',
+  'Adobe Illustrator',
+  'Autodesk 3D Studio Max',
+  'Digital Photography & Photo Edition'
 ]
+
+const softSkills = [
+  'Organized',
+  'Fast learner',
+  'Motivated',
+  'Responsible',
+  'Sociable',
+  'Creative',
+  'Energetic',
+  'Independent',
+  'Teamwork'
+]
+
+const languages = ['Spanish', 'English', 'Catalan']
 
 export default function App() {
   return (
@@ -124,25 +162,29 @@ export default function App() {
           <div>
             <p className="eyebrow">Curriculum Vitae</p>
             <h1>Emilse Parrello</h1>
-            <p className="role">Data Platform Engineer</p>
+            <p className="role">Full Stack Developer</p>
           </div>
         </div>
         <div className="hero__meta">
+          <div>
+            <span className="label">Email</span>
+            <a href="mailto:eparrello@gmail.com">eparrello@gmail.com</a>
+          </div>
+          <div>
+            <span className="label">Phone</span>
+            <a href="tel:+34687514350">687 514 350</a>
+          </div>
           <div>
             <span className="label">Location</span>
             <span>Barcelona</span>
           </div>
           <div>
-            <span className="label">GitHub</span>
-            <a href="http://git.gparrello.com">github.com/gparrello</a>
-          </div>
-          <div>
             <span className="label">LinkedIn</span>
-            <a href="http://linkedin.gparrello.com">linkedin.com/in/gparrello</a>
+            <a href="https://linkedin.com/in/emilseparrello">linkedin.com/in/emilseparrello</a>
           </div>
           <div>
-            <span className="label">Calendar</span>
-            <a href="http://calendar.gparrello.com">calendly.com/gparrello</a>
+            <span className="label">GitHub</span>
+            <a href="https://github.com/EmyParrello">github.com/EmyParrello</a>
           </div>
         </div>
       </header>
@@ -151,9 +193,8 @@ export default function App() {
         <section className="card about">
           <h2>About</h2>
           <p>
-            DevOps engineer focused in data platform infrastructure. Economics major and musician,
-            passionate about data and technology. As an avid self-hoster, interested in open source
-            software, privacy, and decentralization.
+            Looking for new challenges, aiming to improve skills, expand knowledge and grow personal
+            and professionally, always with a positive attitude and an open mind.
           </p>
         </section>
 
@@ -161,7 +202,9 @@ export default function App() {
           <Tabs.Root defaultValue="work" className="tabs">
             <Tabs.List className="tabs__list">
               <Tabs.Trigger value="work">Work Experience</Tabs.Trigger>
+              <Tabs.Trigger value="projects">Projects</Tabs.Trigger>
               <Tabs.Trigger value="education">Education</Tabs.Trigger>
+              <Tabs.Trigger value="skills">Skills</Tabs.Trigger>
               <Tabs.Trigger value="languages">Languages</Tabs.Trigger>
             </Tabs.List>
 
@@ -172,13 +215,7 @@ export default function App() {
                     <Accordion.ItemTrigger className="accordion__trigger">
                       <div>
                         <h3>{role.role}</h3>
-                        <p className="muted">
-                          {role.companyUrl ? (
-                            <a href={role.companyUrl}>{role.company}</a>
-                          ) : (
-                            role.company
-                          )}
-                        </p>
+                        <p className="muted">{role.company}</p>
                       </div>
                       <span className="pill">{role.dates}</span>
                     </Accordion.ItemTrigger>
@@ -192,6 +229,33 @@ export default function App() {
                   </Accordion.Item>
                 ))}
               </Accordion.Root>
+            </Tabs.Content>
+
+            <Tabs.Content value="projects" className="tabs__content">
+              <div className="stack">
+                <div>
+                  <h3 className="section-title">Featured Projects</h3>
+                  <div className="project-grid">
+                    {featuredProjects.map((project) => (
+                      <div key={project.title} className="project-card">
+                        <h4>{project.title}</h4>
+                        <p className="muted">{project.description}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <h3 className="section-title">Additional Projects</h3>
+                  <div className="project-grid">
+                    {projects.map((project) => (
+                      <div key={project.title} className="project-card">
+                        <h4>{project.title}</h4>
+                        <p className="muted">{project.description}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
             </Tabs.Content>
 
             <Tabs.Content value="education" className="tabs__content">
@@ -215,12 +279,36 @@ export default function App() {
               </div>
             </Tabs.Content>
 
+            <Tabs.Content value="skills" className="tabs__content">
+              <div className="skills-grid">
+                <div className="skills-card">
+                  <h3>Technical Skills</h3>
+                  <div className="chip-grid">
+                    {technicalSkills.map((skill) => (
+                      <span key={skill} className="chip">
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <div className="skills-card">
+                  <h3>Skills</h3>
+                  <div className="chip-grid">
+                    {softSkills.map((skill) => (
+                      <span key={skill} className="chip">
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </Tabs.Content>
+
             <Tabs.Content value="languages" className="tabs__content">
               <div className="language-grid">
                 {languages.map((language) => (
-                  <div key={language.name} className="language-card">
-                    <h3>{language.name}</h3>
-                    <p className="muted">{language.level}</p>
+                  <div key={language} className="language-card">
+                    <h3>{language}</h3>
                   </div>
                 ))}
               </div>

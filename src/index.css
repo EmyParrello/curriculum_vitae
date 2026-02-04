@@ -203,6 +203,56 @@ p {
   border-bottom: 1px solid #e0e4e8;
 }
 
+.section-title {
+  margin: 0 0 12px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #263238;
+}
+
+.project-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.project-card {
+  padding: 16px;
+  background: #f6f8fa;
+  border-radius: 16px;
+}
+
+.project-card h4 {
+  margin: 0 0 6px;
+  text-transform: none;
+}
+
+.skills-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.skills-card {
+  padding: 16px;
+  border-radius: 16px;
+  background: #f6f8fa;
+}
+
+.chip-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.chip {
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #eceff1;
+  font-size: 12px;
+  font-weight: 600;
+}
+
 .language-grid {
   display: grid;
   gap: 16px;
